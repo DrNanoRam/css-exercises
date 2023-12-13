@@ -9,6 +9,7 @@ body {
 
 img {
   width: 600px;
+  align-content: center;
 }
 
 button {
@@ -24,4 +25,29 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+}
+.content {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.header {
+  display: flex; 
+  padding: 8px;
+  align-items: center;
+}
+ul {
+  list-style-type: none;
+}
+
+.right-links {
+  display: inline-flex;
+  justify-items:flex-end;
+}
+
+.left-links {
+  margin-right: auto;
+  display: block;
+  justify-content: space-between;
 }
